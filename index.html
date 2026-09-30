@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>5 fav things</title>
+
+    <!-- Elegancka czcionka -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f3e7d3;
+            overflow-x: hidden;
+        }
+
+        /* Animowane naklejki */
+        .sticker {
+            position: absolute;
+            width: 80px;
+            opacity: 0.7;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Pozycje naklejek */
+        #coffee { top: 20px; left: 20px; }
+        #cat { top: 120px; right: 40px; }
+        #dog { top: 300px; left: 50px; }
+        #raccoon { top: 450px; right: 60px; }
+        #horse { top: 600px; left: 30px; }
+        #notebook { top: 750px; right: 30px; }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            text-align: center;
+            font-size: 60px;
+            margin-top: 40px;
+            color: #333;
+        }
+
+        .box {
+            background: white;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .box h2 {
+            font-weight: bold;
+            color: #ff9ecb;
+            font-size: 26px;
+            margin-top: 0;
+        }
+
+        ol {
+            padding-left: 20px;
+            font-size: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin: 50px 0;
+            font-size: 22px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Naklejki -->
+    <img id="coffee" class="sticker" src="https://cdn-icons-png.flaticon.com/512/924/924514.png">
+    <img id="cat" class="sticker" src="https://cdn-icons-png.flaticon.com/512/220/220962.png">
+    <img id="dog" class="sticker" src="https://cdn-icons-png.flaticon.com/512/194/194279.png">
+    <img id="raccoon" class="sticker" src="https://cdn-icons-png.flaticon.com/512/616/616408.png">
+    <img id="horse" class="sticker" src="https://cdn-icons-png.flaticon.com/512/1998/1998610.png">
+    <img id="notebook" class="sticker" src="https://cdn-icons-png.flaticon.com/512/2995/2995620.png">
+
+    <h1>5 fav things</h1>
+
+    <div class="box">
+        <h2>5 ulubionych napojów</h2>
+        <ol>
+            <li>kawa</li>
+            <li>sprait</li>
+            <li>matcha</li>
+            <li>herbata czarna</li>
+            <li>woda</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h2>5 ulubionych posiłków</h2>
+        <ol>
+            <li>pierogi ruskie</li>
+            <li>spaghetti carbonara</li>
+            <li>lazagne</li>
+            <li>grzanki</li>
+            <li>tortilla</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h2>5 ulubionych hobby</h2>
+        <ol>
+            <li>malowanie projektów</li>
+            <li>zajmowanie się dziećmi</li>
+            <li>gotowanie</li>
+            <li>rozmawianie z przyjaciółką</li>
+            <li>chodzenie na spacery</li>
+        </ol>
+    </div>
+
+    <div class="box">
+        <h2>5 ulubionych zwierząt</h2>
+        <ol>
+            <li>szop pracz</li>
+            <li>krowy</li>
+            <li>owce</li>
+            <li>konie</li>
+            <li>orki</li>
+        </ol>
+    </div>
+
+    <footer>
+        &#127051; 5 fav things 
+    </footer>
+
+</body>
+</html>
